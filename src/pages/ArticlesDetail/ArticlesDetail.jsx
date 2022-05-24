@@ -43,10 +43,10 @@ const ArticlesDetail = () => {
       <p>{article.text}</p>
       <div className="article__time">{time}</div>
       <div className="btns">
-        <button className={aId === 1 ? 'disableBtn' : "nextBtn"} onClick={prevArticle}>
+        <button className={aId === 1 ? 'disableBtn' : 'nextBtn'} onClick={prevArticle}>
           Предыдущая
         </button>
-        <button className={aId === data.length ? 'disableBtn' : "nextBtn"} onClick={nextArticle}>
+        <button className={aId === data.length ? 'disableBtn' : 'nextBtn'} onClick={nextArticle}>
           Следующая
         </button>
       </div>

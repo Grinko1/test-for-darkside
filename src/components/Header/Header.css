@@ -1,11 +1,6 @@
-.header a{
-    color: brown;
+.header a {
+  color: brown;
 }
-.article__header{
-    padding-left: 10px;
-    /* font-weight: 800;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxpA7yE2ZO_DQAvdGMepLRGQ06U7SlJUjBMQ&usqp=CAU);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent; */
+.article__header {
+  padding-left: 10px;
 }
