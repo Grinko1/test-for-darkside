@@ -1,0 +1,25 @@
+.article{
+    height: 170px ;
+    overflow: hidden;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+}
+.article__title{
+    color: brown;
+}
+a{
+    color: black;
+}
+.preview{
+    padding: 10px;
+    word-wrap:break-word;
+    text-overflow:ellipsis; 
+  
+}
+.article__date{
+    color: darkgray;
+    font-size: 12px;
+    text-align: end;
+    padding-right: 30px;
+    margin: 0;
+}

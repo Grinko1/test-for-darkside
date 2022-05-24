@@ -1,0 +1,53 @@
+.detail{
+    width: 80%;
+    margin: auto;
+}
+.btnBack{
+    background-color: transparent;
+    color: brown;
+  display: flex;
+  align-items: center;
+    border:1px solid brown;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.backIcon{
+    font-size: 16px;
+    margin-top: 3px;
+}
+.detail__title{
+    text-align: center;
+}
+.article__time{
+    color: rgb(150, 149, 149);
+    text-align: end;
+    margin-top: 10px;
+}
+.btns{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.disableBtn{
+    background-color: lightgray;
+    padding:10px 5px;
+    border-radius: 5px ;
+    border:1px solid green;
+    color: lightslategray;
+    cursor:not-allowed;
+
+}
+.nextBtn{
+    padding:10px 5px;
+    background-color: transparent;
+    border-radius: 5px ;
+    border:1px solid green;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.nextBtn:hover{
+    background-color: rgb(253, 246, 146);
+
+}
