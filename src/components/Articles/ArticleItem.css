@@ -1,7 +1,7 @@
 .article{
     height: 170px ;
     overflow: hidden;
-    background-color: rgb(245, 245, 245);
+    background-color: rgba(243, 232, 232, 0.548);
     border-radius: 10px;
 }
 .article__title{
@@ -13,8 +13,7 @@ a{
 .preview{
     padding: 10px;
     word-wrap:break-word;
-    text-overflow:ellipsis; 
-  
+    text-overflow:ellipsis;  
 }
 .article__date{
     color: darkgray;
